@@ -8,13 +8,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
 
     <title>Relógio</title>
+
+    <link rel="shortcut icon" href="./favicon/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="icon" href="./favicon/favicon.ico" type="image/x-icon">
 
 </head>
 
 <body>
-
+    <main>
+        <section class="horario">
+            <h1>
+                <span class="horas"></span>:<span class="minutos"></span>:<span class="segundos"></span>
+            </h1>
+        </section>
+        <section class="data">
+            <h2>
+                <span class="dia-da-semana"></span>,
+                <span class="dia"></span> de
+                <span class="mes"></span> de
+                <span class="ano"></span>
+            </h2>
+        </section>
+    </main>
     <script src="js/index.js"></script>
 </body>
 
