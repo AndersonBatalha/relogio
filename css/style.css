@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Michroma";
+    src: url('../fonts/Michroma-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #D8D6D6;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 40vh 20vh;
+    align-content: center;
+}
+
+.horario h1 {
+    font-size: 12em;
+    font-family: "Michroma";
+}
+
+.data h2 {
+    font-size: 3.75em;
+    font-weight: 100;
+    font-family: "Arial";
+}
